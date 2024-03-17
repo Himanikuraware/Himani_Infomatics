@@ -49,6 +49,10 @@ This project is built using React.js and TypeScript. The main reusable component
 - The design decision was made to use CSS modules for styling to ensure component-level encapsulation and maintainability.
 - The form validation checks for the presence of title, description, and selected chart type before generating the chart.
 
+### Deployment
+
+This project has been deployed on Netlify. You can access the live application at [Live Demo](https://cheery-basbousa-54caac.netlify.app).
+
 ### How to Contribute
 
 Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
