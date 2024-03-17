@@ -1,0 +1,19 @@
+.chart-container {
+    margin-top: 20px;
+  }
+  
+  .chartTitle {
+    font-size: 24px;
+    font-family: cursive;
+    color: rgb(66, 99, 119);
+    -webkit-text-stroke: 0.5px rgb(109, 109, 180);
+  }
+  
+  .chartDescription {
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(174, 94, 147);
+    font-style: bold;
+    -webkit-text-stroke: 0.5px rgb(132, 49, 122);
+  }
+  

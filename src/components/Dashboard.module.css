@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    background-image: linear-gradient(to bottom right, #ffa07a, #00c4ff);
+}
+
+.dashboard-container {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(246, 228, 195, -1); 
+    margin: 10px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dashboard-container:hover {
+    background-color: rgb(243, 228, 201); 
+  }
+
+  .dashboard-container label,
+  .dashboard-container button {
+     font-family: cursive; 
+    }
+
+  
+  .dashboard-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+  }
+  
+  .dashboard-container input,
+  .dashboard-container textarea,
+  .dashboard-container select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dashboard-container button {
+    width: 80%;
+    padding: 10px;
+    background-color: #e7a387;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px; 
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #d76184;
+  }
+  
+  .input.invalidInput,
+  .textarea.invalidInput,
+  .select.invalidInput {
+    border-color: red;
+    background-color: #f9e4e1;
+  }
+  
