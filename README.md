@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+```markdown
+# My Awesome Chart Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React.js application that allows users to generate charts based on provided data. It utilizes Chart.js for rendering the charts and provides a simple form interface for users to input title, description, and select chart type.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To get started, clone this repository to your local machine:
 
-### `npm start`
+```bash
+git clone https://github.com/Himanikuraware/Himani_Infomatics.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Navigate to the project directory:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+cd Himani_Infomatics
+```
 
-### `npm test`
+Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After installing dependencies, you can run the project locally by executing:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This command starts the development server and opens the application in your default web browser at [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+## How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Fill in the title, description, and select chart type fields in the form.
+2. Click the "Generate Chart" button to generate the chart.
+3. View the generated chart below the form.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Documentation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is built using React.js and TypeScript. The main reusable component, `ChartComponent`, is responsible for rendering the chart based on the provided data. It receives the title, description, and chart type as props from the parent component (`Dashboard`) and utilizes Chart.js for chart rendering. CSS modules are used for styling.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Assumptions and Design Decisions
 
-## Learn More
+- The project assumes basic familiarity with React.js and Chart.js.
+- The design decision was made to use CSS modules for styling to ensure component-level encapsulation and maintainability.
+- The form validation checks for the presence of title, description, and selected chart type before generating the chart.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### How to Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+
+- This project was bootstrapped with Create React App.
+- Chart.js library is used for chart rendering.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+```
